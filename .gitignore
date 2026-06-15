@@ -1,0 +1,38 @@
+# ESP-IDF 项目通用忽略规则
+build/
+sdkconfig
+sdkconfig.old
+*.bin
+*.elf
+*.map
+*.d
+*.o
+*.obj
+*.a
+*.lib
+*.hex
+*.log
+
+# VS Code 配置文件
+.vscode/
+.cache/
+
+# CMake 生成文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Python 虚拟环境
+.env/
+venv/
+__pycache__/
+*.pyc
+
+# 其他临时文件
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
